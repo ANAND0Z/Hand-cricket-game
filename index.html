@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAND CRICKET GAME</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav id="frontpage">
+        <h1 class="top">WELCOME TO HAND CRICKET GAME</h1>
+        <div class="top">
+           <button id="headbutton">head</button>
+           <button id="tailbutton">tail</button>
+        </div>
+        <h3 id="tosshead">TOSS</h3>
+        <div id="tossdiv">
+            <img src="assests\images/toss.jpg" id="toss">
+            <img src="assests\images/head.jpg" id="head">
+            <img src="assests\images/tail.jpg" id="tail">
+        </div>
+        <h1 id="tossresult"></h1>
+    </nav>
+    <nav id="secondpage">
+        <h1>you won the toss</h1>
+        <h1>Do you want to choose?</h1>
+        <div >
+            <button id="bat">Bat</button>
+            <button id="bowl">Bowl</button>
+        </div>
+    </nav>
+    <nav id="thirdpage">
+       <h1>you loss the toss</h1>
+       <h1>Computer choose to</h1>
+       <h1 id="pcchoice"></h1>
+    </nav>
+    <nav id="fourthpage">
+    <h1>GAME</h1>
+    <div id="scoreboard">
+        <table border="1" id="scoretable">
+            <tr>
+                <td><h2>Player score</h2></td>
+                <td><h2 id="playerscore">0</h2></td>
+            </tr>
+            <tr>
+                <td><h2>Computer score</h2></td>
+                <td><h2 id="pcscore">0</h2></td>
+            </tr>
+        </table>
+    </div>
+    <div id="playerch">
+        <div id="playerimg"><img src="assests\images/bat.jpg" id="batimg">
+        <img src="assests\images/bowl.jpg" id="bowlimg"></div>
+        <h2>Player</h2>
+    </div>
+    <div id="playerbox">
+    <div>
+        <table>
+        <tr>
+        <td><button id="one">1</button></td>
+        <td><button id="two">2</button></td>
+        <td><button id="three">3</button></td>
+        </tr>
+        <tr>
+        <td><button id="four">4</button></td>
+        <td><button id="five">5</button></td>
+        <td><button id="six">6</button></td>
+        </tr>
+        <tr>
+        <td><button id="seven">7</button></td>
+        <td><button id="eight">8</button></td>
+        <td><button id="nine">9</button></td>
+        </tr>
+        <tr>
+        <td><button id="ten">10</button></td>
+        <td><button id="stroke">stroke<h4></h4></button></td>
+        <td><button id="spin">spin<h4></h4></button></td>
+        </tr>
+        </table>
+    </div>
+    <div id="numbers1">
+        <h1 id="out1">OUT</h1>
+        <img src="assests\images/1.jpg" id="oneimg">
+        <img src="assests\images/2.jpg" id="twoimg">
+        <img src="assests\images/3.jpg" id="threeimg">
+        <img src="assests\images/4.jpg" id="fourimg">
+        <img src="assests\images/5.jpg" id="fiveimg">
+        <img src="assests\images/6.jpg" id="siximg">
+        <img src="assests\images/7.jpg" id="sevenimg">
+        <img src="assests\images/8.jpg" id="eightimg">
+        <img src="assests\images/9.jpg" id="nineimg">
+        <img src="assests\images/10.jpg" id="tenimg">
+        <img src="assests\images/stroke.jpg" id="strokeimg">
+        <img src="assests\images/spin.jpg" id="spinimg">
+    </div>
+    </div>
+    <div id="pcch">
+        <div id="playerimg"><img src="assests\images/bat.jpg" id="pcbatimg">
+        <img src="assests\images/bowl.jpg" id="pcbowlimg"></div>
+        <h2>Computer</h2>
+    </div>
+    <div id="pcbox">
+        <div>
+            <table>
+            <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            </tr>
+            <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            </tr>
+            <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            </tr>
+            <tr>
+            <td><button>10</button></td>
+            <td><button id="pcstroke">stroke<h4></h4></button></td>
+            <td><button id="pcspin">spin<h4></h4></button></td>
+            </tr>
+            </table>
+        </div>
+        <div id="numbers2">
+            <h1 id="out2">OUT</h1>
+            <img src="assests\images/1.jpg" id="pconeimg">
+            <img src="assests\images/2.jpg" id="pctwoimg">
+            <img src="assests\images/3.jpg" id="pcthreeimg">
+            <img src="assests\images/4.jpg" id="pcfourimg">
+            <img src="assests\images/5.jpg" id="pcfiveimg">
+            <img src="assests\images/6.jpg" id="pcsiximg">
+            <img src="assests\images/7.jpg" id="pcsevenimg">
+            <img src="assests\images/8.jpg" id="pceightimg">
+            <img src="assests\images/9.jpg" id="pcnineimg">
+            <img src="assests\images/10.jpg" id="pctenimg">
+            <img src="assests\images/stroke.jpg" id="pcstrokeimg">
+            <img src="assests\images/spin.jpg" id="pcspinimg">
+        </div>
+        </div>
+    </nav>
+    <nav id="fifthpage">
+        <div id="scoretablefinal">
+        <table>
+        <tr><td><h1>Player score</h1></td><td><h1 id="playerfinal"></h1></td></tr>
+        <tr><td><h1>Computer score</h1></td><td><h1 id="pcfinal"></h1></td></tr>
+        </table></div>
+        <h1 id="final"></h1>
+        <button id="replay">REPLAY</button>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#toss{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.top,#tossdiv,#tosshead,#tossresult{
+    display: block;
+    text-align: center;
+    margin: 40px;
+}
+#headbutton,#tailbutton,#bat,#bowl{
+    height: 50px;
+    width: 70px;
+}
+#head,#tail{
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+@media screen and (min-width: 900px) {
+    #secondpage,#thirdpage,#fifthpage{
+       margin: 15%;
+       margin-top: 15%;
+       display: none;
+       text-align: center;
+}
+    #frontpage{
+       margin: 15%;
+       display: block;
+}}
+@media screen and (max-width: 900px) {
+    #secondpage,#thirdpage,#fifthpage{
+       margin: 25%;
+       margin-top: 48%;
+       display: none;
+       text-align: center;
+}
+   #frontpage{
+       margin: 20%;
+      display: block;
+}}
+#fourthpage{
+    text-align: center;
+    display: none;
+}
+#scoreboard{
+    display: flex;
+    justify-content: center;
+}
+#scoretable{
+    width: 75%;
+    table-layout: fixed;
+}
+#batimg,#bowlimg,#pcbatimg,#pcbowlimg{
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+#playerimg{
+    width: 30px;
+    height: 30px;
+    padding-top:15px;
+    padding-right: 20px;
+}
+#playerch,#pcch{
+    display: flex;
+    justify-content:center;
+}
+#numbers1,#numbers2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+#oneimg,#twoimg,#threeimg,#fourimg,#fiveimg,#siximg,#sevenimg,#eightimg,#nineimg,#tenimg,#strokeimg,#spinimg,
+#pconeimg,#pctwoimg,#pcthreeimg,#pcfourimg,#pcfiveimg,#pcsiximg,#pcsevenimg,#pceightimg,#pcnineimg,#pctenimg,#pcstrokeimg,#pcspinimg
+    {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+#playerbox,#pcbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+#out1,#out2{
+    display: none;
+    color: white;
+}
+#final{
+    color: red;
+}
+#replay{
+    width: 100px;
+    height: 50px;
+}
+#scoretablefinal{
+    display: inline-block;
+    text-align: center;
+}
